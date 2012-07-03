@@ -1,47 +1,67 @@
 body {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 50; 
 }
 
 #nav {
+    position: relative;
     border: 1px solid gray;
     margin: 0px 0px 20px 0px;
+    
+    #menu {
+        margin: 0px;
+        list-style-type: none;
+        font-size: 13px;
+        height: 40px;;
+        li {
+            float: left;
+            &.right { float: right; }
+            margin: 0;
+            a {
+                text-decoration: none;
+                display: block;
+                padding: 0 20px;
+                line-height: 40px;
+            }
+        }
+
+        &.red { 
+            background: #b80808; 
+            a { color: #fff; }
+            li a:hover { 
+                color: #F27F84; 
+                background: #990000;
+            }
+        }
+
+        &.white { 
+            height: 30px;
+            background: #fff; 
+            a { 
+                color: black; 
+                line-height: 30px;
+            }
+            li a:hover { 
+                color: black; 
+                background: gray;
+            }
+        }
+    }
 }
-#menu {
-    margin: 0px;
-    list-style-type: none;
-    font-size: 13px;
-    height: 40px;
-    li {
-        float: left;
-        margin: 0;
-        a {
-            text-decoration: none;
-            display: block;
-            padding: 0 20px;
-            line-height: 40px;
-        }
-    }
 
-    &.red { 
-        background: #b80808; 
-        a { color: #fff; }
-        li a:hover { 
-            color: #F27F84; 
-            background: #990000;
-        }
-    }
+#cover {
+}
+#bottom {
+    width: 940px;
+    height: 300px;
+    background-color: black;
+}
 
-    &.white { 
-        height: 30px;
-        background: #fff; 
-        a { 
-            color: black; 
-            line-height: 30px;
-        }
-        li a:hover { 
-            color: black; 
-            background: gray;
-        }
+#logo {
+    position: absolute;
+    left: 350px;
+    top: -65px;
+    img {
+        height: 200px;
     }
 }

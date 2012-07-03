@@ -1,37 +1,51 @@
 body {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 50; }
 
 #nav {
+  position: relative;
   border: 1px solid gray;
   margin: 0px 0px 20px 0px; }
+  #nav #menu {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 13px;
+    height: 40px; }
+    #nav #menu li {
+      float: left;
+      margin: 0; }
+      #nav #menu li.right {
+        float: right; }
+      #nav #menu li a {
+        text-decoration: none;
+        display: block;
+        padding: 0 20px;
+        line-height: 40px; }
+    #nav #menu.red {
+      background: #b80808; }
+      #nav #menu.red a {
+        color: #fff; }
+      #nav #menu.red li a:hover {
+        color: #F27F84;
+        background: #990000; }
+    #nav #menu.white {
+      height: 30px;
+      background: #fff; }
+      #nav #menu.white a {
+        color: black;
+        line-height: 30px; }
+      #nav #menu.white li a:hover {
+        color: black;
+        background: gray; }
 
-#menu {
-  margin: 0px;
-  list-style-type: none;
-  font-size: 13px;
-  height: 40px; }
-  #menu li {
-    float: left;
-    margin: 0; }
-    #menu li a {
-      text-decoration: none;
-      display: block;
-      padding: 0 20px;
-      line-height: 40px; }
-  #menu.red {
-    background: #b80808; }
-    #menu.red a {
-      color: #fff; }
-    #menu.red li a:hover {
-      color: #F27F84;
-      background: #990000; }
-  #menu.white {
-    height: 30px;
-    background: #fff; }
-    #menu.white a {
-      color: black;
-      line-height: 30px; }
-    #menu.white li a:hover {
-      color: black;
-      background: gray; }
+#bottom {
+  width: 940px;
+  height: 300px;
+  background-color: black; }
+
+#logo {
+  position: absolute;
+  left: 350px;
+  top: -65px; }
+  #logo img {
+    height: 200px; }
