@@ -2,6 +2,7 @@ layout 'layout.html.erb'
 
 helpers do
   def link_to(url, text)
-    "<a href=\"#{url}.html\">#{text}</a>"
+    url == "/" ? url = "/" : (url = "#{url}.html")
+    "<a href=\"#{url}\">#{text}</a>"
   end
 end
