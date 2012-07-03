@@ -31,8 +31,12 @@ body {
     }
 
     &.white { 
+        height: 30px;
         background: #fff; 
-        a { color: black; }
+        a { 
+            color: black; 
+            line-height: 30px;
+        }
         li a:hover { 
             color: black; 
             background: gray;

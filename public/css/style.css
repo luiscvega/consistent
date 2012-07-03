@@ -26,9 +26,11 @@ body {
       color: #F27F84;
       background: #990000; }
   #menu.white {
+    height: 30px;
     background: #fff; }
     #menu.white a {
-      color: black; }
+      color: black;
+      line-height: 30px; }
     #menu.white li a:hover {
       color: black;
       background: gray; }
