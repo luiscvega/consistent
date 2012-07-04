@@ -1,11 +1,22 @@
 body {
-  padding-top: 80px;
-  padding-bottom: 50; }
+  padding-top: 70px;
+  padding-bottom: 50;
+  background-color: #F7F7F7; }
+
+.clear {
+  clear: both; }
+
+#logo {
+  position: absolute;
+  left: 350px;
+  top: -65px; }
+  #logo img {
+    height: 200px; }
 
 #nav {
   position: relative;
   border: 1px solid gray;
-  margin: 0px 0px 20px 0px; }
+  margin: 0px 0px 10px 0px; }
   #nav #menu {
     margin: 0px;
     list-style-type: none;
@@ -38,14 +49,56 @@ body {
         color: black;
         background: gray; }
 
-#bottom {
-  width: 940px;
-  height: 300px;
-  background-color: black; }
+#cover {
+  margin-bottom: 10px; }
 
-#logo {
-  position: absolute;
-  left: 350px;
-  top: -65px; }
-  #logo img {
-    height: 200px; }
+#main {
+  border: 1px solid gray;
+  width: 938px; }
+  #main #left {
+    padding: 10px 0px 0px 10px;
+    display: block;
+    width: 229px;
+    float: left; }
+  #main #right {
+    padding: 10px;
+    display: block;
+    float: left;
+    width: 639px; }
+    #main #right .item {
+      clear: both; }
+      #main #right .item img {
+        margin: 0px 10px 10px 0px;
+        float: left; }
+
+#bottom {
+  /*    ul.media-grid {
+        display: table;
+        margin: 0 auto;
+        li {
+          float: left;
+          padding: 4px;
+          margin: 5px 5px;
+          border: 1px solid #ddd;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+          -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+        }
+        h6 {
+          text-align: center;
+        }
+      }*/ }
+  #bottom ul {
+    margin: 0px;
+    list-style-type: none; }
+    #bottom ul li {
+      text-decoration: none;
+      float: left; }
+      #bottom ul li .box {
+        margin: 5px;
+        width: 300;
+        height: 200px;
+        border: 1px solid gray; }
