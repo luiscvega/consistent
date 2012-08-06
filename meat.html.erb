@@ -1,15 +1,23 @@
-<div id="cover"><img src="http://placehold.it/940x100"></div>
+<div id="header">
+  <div id="sidebar">
+    <h2>Call Us Now!</h2>
+    <h2>Hershey Ang</h2>
+    <h1>0917-898-8342</h1>
+  </div>
+  <img src="img/<%= header %>.png">
+</div>
 <div id="main">
   <div id="left">
-    <h1>Call Us Now!</h1>
   </div>
-  <h1><%= meat %></h1>
   <div id="right">
+    <h1><%= meat %></h1>
     <% for variant in variants %>
       <div class="item">
         <img src="<%= variant["img"] %>">
         <h3><%= variant["name"] %></h3>
-        <p><%= variant["description"] %></p>
+        <br />
+        <p><strong>Description:</strong> <%= variant["description"] %></p>
+        <p><strong>Origin:</strong> <%= variant["origin"] %></p>
       </div>
     <% end %>
   </div>

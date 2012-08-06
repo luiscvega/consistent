@@ -8,21 +8,25 @@
   <div class="container">
     <div id="nav">
       <ul id="menu" class="red">
-        <div id="logo"><img src="img/logo-border-small.png" /></div>
-        <li><a href="/">Home</a></li>
-        <li><a href="#">Chicken</a></li>
-        <li><%= link_to "pork", "Pork" %></li>
+        <div id="logo"><img src="img/logo.png" /></div>
+        <li class="left"><a href="/">Home</a></li>
+        <li class="left"><a href="/about.html">About Us</a></li>
+        <li class="left"><a href="/team.html">The Team</a></li>
+        <li class="left"><a href="/contact.html">Contact</a></li>
+        <li class="right"><%= link_to "chicken", "Chicken" %></li>
+        <li class="right"><%= link_to "pork", "Pork" %></li>
         <li class="right"><%= link_to "beef", "Beef" %></li>
-        <li class="right"><a href="#">Seafood</a></li>
-        <li class="right"><a href="#">Lamb</a></li>
-    </ul>
-    <ul id="menu" class="white">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">The Team</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
+        <li class="right"><%= link_to "seafood", "Seafood" %></li>
+        <li class="right"><%= link_to "lamb", "Lamb" %></li>
+      </ul>
+    </div>
   <%= yield %>
+    <div id="footer">
+      <p>Copyright &copy; 2012 - Consistent Frozen Solutions Corp. - All Rights Reserved | Designed by Luis and Peter</p>
+      <p>
+        Home | About Us | The Team | Contact || Chicken | Pork | Beef | Seafood | Lamb
+      </p>
+    </div>
   </div>
 </body>
 </html>

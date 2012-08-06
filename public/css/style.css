@@ -8,10 +8,10 @@ body {
 
 #logo {
   position: absolute;
-  left: 350px;
+  left: 370px;
   top: -65px; }
   #logo img {
-    height: 200px; }
+    width: 200px; }
 
 #nav {
   position: relative;
@@ -52,16 +52,37 @@ body {
 #cover {
   margin-bottom: 10px; }
 
+#header {
+  margin-bottom: 10px;
+  width: 940px;
+  height: 200px; }
+  #header img {
+    margin-right: 20px;
+    float: right; }
+  #header #sidebar {
+    padding: 30px 30px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    color: white;
+    background-color: #6E0D25;
+    width: auto;
+    height: 140;
+    display: block;
+    border: 1px solid gray;
+    float: left; }
+
 #main {
+  background-color: white;
   border: 1px solid gray;
   width: 938px; }
   #main #left {
-    padding: 10px 0px 0px 10px;
+    padding: 10px 10px 0px 10px;
     display: block;
-    width: 229px;
+    width: 219px;
     float: left; }
   #main #right {
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
     display: block;
     float: left;
     width: 639px; }
@@ -71,34 +92,19 @@ body {
         margin: 0px 10px 10px 0px;
         float: left; }
 
-#bottom {
-  /*    ul.media-grid {
-        display: table;
-        margin: 0 auto;
-        li {
-          float: left;
-          padding: 4px;
-          margin: 5px 5px;
-          border: 1px solid #ddd;
-          -webkit-border-radius: 4px;
-          -moz-border-radius: 4px;
-          border-radius: 4px;
-          -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
-          -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
-        }
-        h6 {
-          text-align: center;
-        }
-      }*/ }
-  #bottom ul {
-    margin: 0px;
-    list-style-type: none; }
-    #bottom ul li {
-      text-decoration: none;
-      float: left; }
-      #bottom ul li .box {
-        margin: 5px;
-        width: 300;
-        height: 200px;
-        border: 1px solid gray; }
+#bottom ul {
+  margin: 0px;
+  list-style-type: none; }
+  #bottom ul li {
+    text-decoration: none;
+    float: left; }
+    #bottom ul li .box {
+      margin: 5px;
+      width: 300;
+      height: 200px;
+      border: 1px solid gray; }
+
+#footer {
+  clear: both;
+  padding-top: 30px;
+  text-align: center; }

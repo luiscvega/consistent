@@ -6,15 +6,20 @@ helpers do
   end
 end
 
-ignore 'meat.html.erb'
+ignore 'meat.html.erb', 'meats.yml', 'helpers.rb'
 layout 'layout.html.erb'
 layout 'meat.html.erb' => 'layout.html.erb'
 
-def generate(name, variants)
+def generate(meat)
+  name = meat["name"]
+  header = meat["header"]
+  variants = meat["variants"]
+  
   before "#{name.downcase}.html.erb" do
     instead render 'meat.html.erb', 
       locals: {
         meat: name,
+        header: header,
         variants: variants
       }
   end
@@ -22,20 +27,6 @@ end
 
 meats = YAML::load(File.open('meats.yml'))
 
-meats.each do |meat, variants|
-  generate meat, variants
+meats.each do |meat|
+  generate meat
 end
-
-# generate "Pork",
-  # [
-  #   { 
-  #     name: "Tenderloin",
-  #     img: "http://placehold.it/300x150",
-  #     description: "Rib-Eye is delicious."
-  #   }, 
-  #   { 
-  #     name: "Rib-Eye",
-  #     img: "http://placehold.it/300x150",
-  #     description: "Rib-Eye is delicious."
-  #   },
-  # ]
