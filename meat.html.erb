@@ -7,19 +7,21 @@
   <img src="img/<%= header %>.png">
 </div>
 <div id="main">
-  <div id="left">
-  </div>
-  <div id="right">
-    <h1><%= meat %></h1>
-    <% for variant in variants %>
-      <div class="item">
-        <img src="<%= variant["img"] %>">
-        <h3><%= variant["name"] %></h3>
-        <br />
+  <h1><%= meat %></h1>
+  <% for variant in variants %>
+    <div class="item">
+      <img src="<%= variant["img"] %>">
+      <h3><%= variant["name"] %></h3>
+      <br />
+
+      <% unless variant["description"].nil?  %>
         <p><strong>Description:</strong> <%= variant["description"] %></p>
+      <% end %>
+
+      <% unless variant["origin"].nil?  %>
         <p><strong>Origin:</strong> <%= variant["origin"] %></p>
-      </div>
-    <% end %>
-  </div>
-  <div class="clear"></div>
+      <% end %>
+
+    </div>
+  <% end %>
 </div>

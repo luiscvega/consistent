@@ -13,48 +13,29 @@
         <li class="left"><a href="/about.html">About Us</a></li>
         <li class="left"><a href="/team.html">The Team</a></li>
         <li class="left"><a href="/contact.html">Contact</a></li>
-        <li class="right"><a href="chicken.html">Chicken</a></li>
-        <li class="right"><a href="pork.html">Pork</a></li>
-        <li class="right"><a href="beef.html">Beef</a></li>
-        <li class="right"><a href="seafood.html">Seafood</a></li>
-        <li class="right"><a href="lamb.html">Lamb</a></li>
+        <li class="right"><%= link_to "chicken", "Chicken" %></li>
+        <li class="right"><%= link_to "pork", "Pork" %></li>
+        <li class="right"><%= link_to "beef", "Beef" %></li>
+        <li class="right"><%= link_to "seafood", "Seafood" %></li>
+        <li class="right"><%= link_to "lamb", "Lamb" %></li>
       </ul>
     </div>
-  <div id="header">
-  <div id="sidebar">
-    <h2>Call Us Now!</h2>
-    <h2>Hershey Ang</h2>
-    <h1>0917-898-8342</h1>
-  </div>
-  <img src="img/lamb.png">
-</div>
-<div id="main">
-  <h1>Lamb</h1>
-  
-    <div class="item">
-      <img src="">
-      <h3>To be announced.</h3>
-      <br />
-
-      
-
-      
-
+    <div id="pages-header">
+      <img src="http://placehold.it/940x200.png">
     </div>
-  
-</div>
+    <%= yield %>
     <div id="footer">
       <p>Copyright &copy; 2012 - Consistent Frozen Solutions Corp. - All Rights Reserved | Designed by Luis and Peter</p>
       <p>
         <a href="/">Home</a> | 
         <a href="/about.html">About Us</a> | 
         <a href="/team.html">The Team</a> | 
-        <a href="/contact">Contact</a> || 
-        <a href="chicken.html">Chicken</a> | 
-        <a href="pork.html">Pork</a> | 
-        <a href="beef.html">Beef</a> | 
-        <a href="seafood.html">Seafood</a> | 
-        <a href="lamb.html">Lamb</a>
+        <a href="/contact.html">Contact</a> || 
+        <%= link_to "chicken", "Chicken" %> | 
+        <%= link_to "pork", "Pork" %> | 
+        <%= link_to "beef", "Beef" %> | 
+        <%= link_to "seafood", "Seafood" %> | 
+        <%= link_to "lamb", "Lamb" %>
       </p>
     </div>
   </div>

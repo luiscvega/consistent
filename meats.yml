@@ -81,6 +81,6 @@
 - name: Lamb
   header: lamb
   variants:
-    - name: Tenderloin
-      img: http://placehold.it/300x150
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - name: To be announced.
+      img:
+      description:

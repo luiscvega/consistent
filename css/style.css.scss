@@ -65,6 +65,15 @@ body {
 #cover {
     margin-bottom: 10px;
 }
+#pages-header {
+  margin-bottom: 10px;
+  width: 940px;
+  height: 200px;
+}
+
+#pages-content {
+  margin-left: 160px;
+}
 
 #header {
     margin-bottom: 10px;
@@ -93,24 +102,15 @@ body {
     background-color: white;
     border: 1px solid gray;
     width: 938px;
-    #left {
-        padding: 10px 10px 0px 10px;
-        display: block;
-        width: 219px;
-        float: left;
-    }
-    #right {
-        padding: 10px 10px 10px 0px;
-        display: block;
-        float: left;
-        width: 639px;
-        .item {
-            img { 
-                margin: 0px 10px 10px 0px;
-                float: left;
-            }
-            clear: both;
+    padding: 30px;
+    display: block;
+    float: left;
+    .item {
+        img { 
+            margin: 0px 10px 10px 0px;
+            float: left;
         }
+        clear: both;
     }
 }
 
@@ -135,4 +135,6 @@ body {
     clear: both;
     padding-top: 30px;
     text-align: center;
+    font-size: 11px;
+    line-height: 10px;
 }
