@@ -1,0 +1,86 @@
+- name: Beef
+  header: beef
+  variants:
+    - name: Beef Forequarter
+      img: http://placehold.it/300x150
+      description: "Boneless meat, shoulder part, very lean; approximately 20 kg/box"
+      origin: Brazil
+    - name: Beef Shortplate
+      img: http://placehold.it/300x150
+      description: "Boneless meat, belly part; quite fatty; approximately 5 - 6 kg/slab, 5 - 6 slabs/box"
+      origin: USA
+    - name: Ox Tongue
+      img: http://placehold.it/300x150
+      description: "Beef tongue, 2 - 2.5 kg/piece, 10 tongues/box"
+      origin: USA
+    - name: Ox Tripe
+      img: http://placehold.it/300x150
+      description: "Beef stomach, 27.21/box"
+      origin: USA
+- name: Pork
+  header: pork
+  variants:
+    - name: Pork Picnic Shoulder
+      img: http://placehold.it/300x150
+      description: "Boneless / skinless pork shoulder, 20 kg/box"
+      origin: "USA, Canada"
+    - name: Pork Belly BISO
+      img: http://placehold.it/300x150
+      description: "Pork belly skin on bone in, 20 kg/box"
+      origin: "Europe, USA, Canada"
+    - name: Pork Jowls
+      img: http://placehold.it/300x150
+      description: "Skin on, very fatty, around 40-50% fat, 25 kg/box"
+      origin: "Europe, USA, Canada"
+    - name: Pork Brisket Bones
+      img: http://placehold.it/300x150
+      description: "Pork ribs, front end of the spareribs, 20 kg/box"
+      origin: "USA, Canada"
+    - name: Pork Fat
+      img: http://placehold.it/300x150
+      description: "Pure pork fat, 20 kg/box"
+      origin: "USA, Canada"
+    - name: Pork Chop
+      img: http://placehold.it/300x150
+      description: "Skinless, bone in"
+      origin: "Philippines"
+- name: Chicken
+  header: chicken
+  variants:
+    - name: Chicken Leg Quarter
+      img: http://placehold.it/300x150
+      description: "Bone in skin on 3-4 pcs/kg, 15 kg/box"
+      origin: "USA, Canada"
+    - name: Chicken Leg Fillet
+      img: http://placehold.it/300x150
+      description: "Boneless skin on, chicken leg quarter fillet. 2 kg/pack, 16 kg/box"
+      origin: Brazil
+    - name: Chicken Wings
+      img: http://placehold.it/300x150
+      description: "2 kg or 5 kg/pack"
+      origin: Philippines
+    - name: Whole Chicken
+      img: http://placehold.it/300x150
+      description: "1 - 1.2 kg/piece"
+      origin: Philippines
+- name: Seafood
+  header: seafood
+  variants:
+    - name: Dory
+      img: http://placehold.it/300x150
+      description: "3pcs/kg, 1kg per pack, 10kg/box"
+      origin: Vietnam
+    - name: Giant Squid
+      img: http://placehold.it/300x150
+      description: "Squid fillet slab skinless, 20kg/sack"
+      origin: Peru
+    - name: Salmon
+      img: http://placehold.it/300x150
+      description: "5-6 kg/piece, 4-5 pieces/box"
+      origin: Norway
+- name: Lamb
+  header: lamb
+  variants:
+    - name: To be announced.
+      img:
+      description:
