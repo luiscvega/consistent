@@ -7,7 +7,7 @@ helpers do
   end
 end
 
-ignore 'meat.html.erb', 'meats.yml', 'helpers.rb'
+ignore 'meat.html.erb', 'meats.yml', 'helpers.rb', '.rvmrc', '.git'
 layout 'layout.html.erb'
 layout 'meat.html.erb' => 'layout.html.erb'
 

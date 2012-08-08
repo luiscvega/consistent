@@ -1,13 +1,14 @@
+<a name="top"></a>
 <div id="header">
   <div id="sidebar">
-    <h2>Call Us Now!</h2>
-    <h2>Hershey Ang</h2>
-    <h1>0917-898-8342</h1>
+    <h2>Call us at</h2>
+    <h1>(02) 253-3720</h1>
+    <h2>for your free sample!</h2>
   </div>
   <img src="img/<%= header %>.png">
 </div>
 <div id="main">
-  <h1><%= meat %></h1>
+  <h1><span class="red"><%= meat %></span></h1>
   <% for variant in variants %>
     <div class="item">
       <img src="<%= variant["img"] %>">
@@ -24,4 +25,7 @@
 
     </div>
   <% end %>
+  <div class="item">
+    <a href="#top">Back to Top</a>
+  </div>
 </div>

@@ -57,9 +57,6 @@ body {
   width: 940px;
   height: 200px; }
 
-#pages-content {
-  margin-left: 160px; }
-
 #header {
   margin-bottom: 10px;
   width: 940px;
@@ -75,15 +72,15 @@ body {
     color: white;
     background-color: #6E0D25;
     width: auto;
-    height: 140;
     display: block;
     border: 1px solid gray;
+    text-align: center;
     float: left; }
 
 #main {
   background-color: white;
   border: 1px solid gray;
-  width: 938px;
+  width: 878px;
   padding: 30px;
   display: block;
   float: left; }
@@ -101,9 +98,14 @@ body {
     float: left; }
     #bottom ul li .box {
       margin: 5px;
-      width: 300;
-      height: 200px;
-      border: 1px solid gray; }
+      width: 135;
+      height: 100px;
+      padding: 20px;
+      text-align: center;
+      line-height: 30px;
+      border: 1px solid gray;
+      font-size: 10px;
+      font-weight: bold; }
 
 #footer {
   clear: both;
@@ -111,3 +113,6 @@ body {
   text-align: center;
   font-size: 11px;
   line-height: 10px; }
+
+.red {
+  color: #c40000; }
