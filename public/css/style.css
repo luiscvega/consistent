@@ -126,16 +126,17 @@ body {
       margin-bottom: 0px; }
     #bottom ul li .box {
       margin: 5px;
-      width: 104;
-      height: 100px;
+      width: 106;
       padding: 20px;
       text-align: center;
       line-height: 30px;
-      border: 1px solid gray;
       font-size: 10px;
       font-weight: bold; }
       #bottom ul li .box img {
         width: 100px; }
+      #bottom ul li .box p.description {
+        text-align: left;
+        font-weight: normal; }
 
 #footer {
   clear: both;
