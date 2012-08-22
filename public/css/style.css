@@ -121,9 +121,12 @@ body {
   #bottom ul li {
     text-decoration: none;
     float: left; }
+    #bottom ul li p {
+      line-height: 12px;
+      margin-bottom: 0px; }
     #bottom ul li .box {
       margin: 5px;
-      width: 135;
+      width: 104;
       height: 100px;
       padding: 20px;
       text-align: center;
@@ -132,7 +135,7 @@ body {
       font-size: 10px;
       font-weight: bold; }
       #bottom ul li .box img {
-        width: 70px; }
+        width: 100px; }
 
 #footer {
   clear: both;

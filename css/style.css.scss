@@ -138,9 +138,13 @@ body {
         li {
             text-decoration: none;
             float: left;
+            p {
+              line-height: 12px;
+              margin-bottom: 0px;
+            }
             .box {
                 margin: 5px;
-                width: 135;
+                width: 104;
                 height: 100px;
                 padding: 20px;
                 text-align: center;
@@ -149,7 +153,7 @@ body {
                 font-size: 10px;
                 font-weight: bold;
                 img {
-                  width: 70px;
+                  width: 100px;
                 }
             }
         }
