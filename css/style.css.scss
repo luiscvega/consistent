@@ -138,24 +138,28 @@ body {
         li {
             text-decoration: none;
             float: left;
-            p {
-              line-height: 12px;
-              margin-bottom: 0px;
-            }
             .box {
                 margin: 5px;
-                width: 106;
-                padding: 20px;
+                width: 243;
+                padding: 0px 30px 40px 30px;
                 text-align: center;
                 line-height: 30px;
-                font-size: 10px;
+
                 font-weight: bold;
                 img {
                   width: 100px;
                 }
-                p.description {
-                  text-align: left;
-                  font-weight: normal;
+                h1 {
+                  font-size: 13px;
+                }
+                p {
+                  font-size: 11px;
+                  line-height: 12px;
+                  margin-bottom: 0px;
+                  &.description {
+                    text-align: left;
+                    font-weight: normal;
+                  }
                 }
             }
         }

@@ -121,22 +121,24 @@ body {
   #bottom ul li {
     text-decoration: none;
     float: left; }
-    #bottom ul li p {
-      line-height: 12px;
-      margin-bottom: 0px; }
     #bottom ul li .box {
       margin: 5px;
-      width: 106;
-      padding: 20px;
+      width: 243;
+      padding: 0px 30px 40px 30px;
       text-align: center;
       line-height: 30px;
-      font-size: 10px;
       font-weight: bold; }
       #bottom ul li .box img {
         width: 100px; }
-      #bottom ul li .box p.description {
-        text-align: left;
-        font-weight: normal; }
+      #bottom ul li .box h1 {
+        font-size: 13px; }
+      #bottom ul li .box p {
+        font-size: 11px;
+        line-height: 12px;
+        margin-bottom: 0px; }
+        #bottom ul li .box p.description {
+          text-align: left;
+          font-weight: normal; }
 
 #footer {
   clear: both;
